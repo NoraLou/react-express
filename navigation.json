@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "className": "left",
+      "href": "/products/women",
+      "label": "WOMEN"
+    },
+    {
+      "className": "left",
+      "href": "/products/designer",
+      "label": "DESIGNER"
+    },
+    {
+      "className": "left large-devices",
+      "href": "/products/maternity",
+      "label": "MATERNITY"
+    },
+    {
+      "className": "left medium-devices",
+      "href": "/products/women/shoes",
+      "label": "SHOES"
+    },
+    {
+      "className": "left medium-devices",
+      "href": "/products/women/handbags",
+      "label": "HANDBAGS"
+    },
+    {
+      "className": "left",
+      "href": "/products/girls",
+      "label": "GIRLS"
+    },
+    {
+      "className": "left",
+      "href": "/products/boys",
+      "label": "BOYS"
+    },
+    {
+      "className": "left",
+      "href": "/products/women/basement",
+      "label": "BASEMENT"
+    },
+    {
+      "className": "right sell",
+      "href": "/p/cleanout",
+      "label": "SELL"
+    },
+    {
+      "className": "right largest-devices bam",
+      "href": "/badassmoms/karina",
+      "label": "BADASSMOMS"
+    },
+    {
+      "className": "right largest-devices",
+      "href": "https://blog.thredup.com",
+      "label": "BLOG"
+    }
+  ]
+}

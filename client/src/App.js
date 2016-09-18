@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
-import Client from './Client';
+import Navbar from './Nav.js';
+import './index.css';
 
-class App extends Component {
-  render() {
+const App = React.createClass({
+  render () {
     return (
-      <div className="App">
-        <div className="App-header">
-        </div>
+      <div className="ugly-test">
+        <Navbar />
       </div>
     );
   }
-}
+});
 
 export default App;

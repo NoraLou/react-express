@@ -6,6 +6,7 @@ function search(query) {
 }
 
 function checkStatus(response) {
+  //run a loader
   if (response.status >= 200 && response.status < 300) {
     return response;
   } else {

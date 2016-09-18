@@ -18,8 +18,11 @@ function checkStatus(response) {
   }
 }
 
+var response
 function parseJSON(response) {
-  return response.json();
+  response = response.json();
+  console.log(response)
+  return response
 }
 
 const Client = { search };

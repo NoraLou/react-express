@@ -4,8 +4,15 @@ body {
   font-family: sans-serif;
 }
 
-.ugly-test {
-  height:200px;
+/*.ugly-test {
+  padding: 40px;
   width: 100%;
   background-color: green;
+}*/
+
+.nav-test {
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  background-color: pink;
 }

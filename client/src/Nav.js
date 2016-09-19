@@ -3,43 +3,35 @@ import './Nav.css';
 import Client from './Client';
 import './index.css';
 
-// let navData;
-
-// Client.search().then(function(data){
-//   navData = data;
-// })
-
-// console.log("navData", navData)
 
 
-class NavBar extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
+const NavBar = React.createClass ({
+  getInitialState: function() {
+    return {
       navItems: []
-    }
-  }
+    };
+  },
 
   componentDidMount: function() {
+    Client.search().then((data)=> (
+      this.setState({
+        navItems: data
+      })
+    ))
+  },
 
-  }
-
-
-
-  render() {
+  render: function() {
     return (
       <nav className="nav-test">
         <ul>
-          {this.state.navItems.map((navItem, idx)=> (
-            <li key={idx}>navItem.label</li>
-          ))}
+          {this.state.navItems}
         </ul>
       </nav>
-    );
+    )
   }
+});
 
-}
+
 
 export default NavBar;
 
